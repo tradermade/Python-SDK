@@ -1,4 +1,4 @@
-tradermade SDK
+TraderMade SDK
 ==============
 
 tradermade is Python SDK for getting forex data via REST API or
