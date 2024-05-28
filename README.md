@@ -9,19 +9,20 @@ Installation
 
 Use the package manager `pip`_ to install foobar.
 
-.. code:: bash
+```bash
 
    pip install tradermade
+```
 
-Get API key by signing up for `free`_
+Get the API key by signing up for `free`_
 
 Usage
 -----
 
 REST API
-~~~~~~~~
 
-.. code:: python
+Follow the TraderMade [Python SDK REST tutorial](https://tradermade.com/tutorials/python-sdk-for-forex-data).
+```python
 
    import tradermade as tm
 
@@ -39,10 +40,12 @@ REST API
 
    tm.currency_list() # gets a list of all currency codes available add two codes to get code for currency pair ex EUR + USD gets EURUSD
 
-Streaming Data
-~~~~~~~~~~~~~~
+```
 
-.. code:: python
+Streaming Data
+
+Follow the TraderMade [Python SDK WebSocket tutorial](https://tradermade.com/tutorials/stream-data-using-python-in-8-lines-of-code)
+```python
 
    from tradermade import stream
 
@@ -60,6 +63,8 @@ Streaming Data
    stream.stream_data(print_message)  
 
    stream.connect()
+
+```
 
 Contributing
 ------------
