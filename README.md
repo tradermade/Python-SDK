@@ -35,9 +35,9 @@ REST API
 
    tm.timeseries(currency='EURUSD', start="2021-04-20",end="2021-04-22",interval="hourly",fields=["open", "high", "low","close"]) # returns timeseries data for the currency requested interval is daily, hourly, minute - fields is optional
 
-   tm.cfd_list() # gets list of all cfds available
+   tm.cfd_list() # gets a list of all cfds available
 
-   tm.currency_list() # gets list of all currency codes available add two codes to get code for currencypair ex EUR + USD gets EURUSD
+   tm.currency_list() # gets a list of all currency codes available add two codes to get code for currency pair ex EUR + USD gets EURUSD
 
 Streaming Data
 ~~~~~~~~~~~~~~
