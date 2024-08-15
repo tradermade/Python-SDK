@@ -1,4 +1,0 @@
-numpy>=1.16.4
-pandas>=0.24.2
-requests>=2.25.1
-websockets==8.1
