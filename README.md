@@ -52,7 +52,7 @@ Follow the TraderMade [Python SDK WebSocket tutorial](https://tradermade.com/tut
    def print_message(data):
       print(f"Received: {data}")
 
-   api_key = "api_key"
+   api_key = "ws_api_key"
 
     # set streaming key - not the same as rest API key
    stream.set_ws_key(api_key)
