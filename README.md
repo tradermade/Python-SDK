@@ -14,7 +14,7 @@ Use the package manager `pip`_ to install foobar.
    pip install tradermade
 ```
 
-Get the API key by signing up for `free`_
+Get the API key by signing up for [free](https://tradermade.com/signup).
 
 Usage
 -----
